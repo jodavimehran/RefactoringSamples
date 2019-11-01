@@ -6,7 +6,7 @@ package ca.concordia.encs.refactoring.sample.patterns.factory;
 public class Circle implements Shape {
 
     @Override
-    public void drawShape(int thickness, String lineType) {
+    public void drawIt(int thickness, String lineType) {
         System.out.println("Inside Circle::draw() method.");
     }
 }
