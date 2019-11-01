@@ -8,18 +8,18 @@ public class FactoryDriver {
         Shape shape1 = ShapeFactory.getShape("CIRCLE");
 
         //call draw method of Circle
-        shape1.draw(10);
+        shape1.draw(10, "normal");
 
         //get an object of Rectangle and call its draw method.
         Shape shape2 = ShapeFactory.getShape("RECTANGLE");
 
         //call draw method of Rectangle
-        shape2.draw(10);
+        shape2.draw(10, "normal");
 
         //get an object of Square and call its draw method.
         Shape shape3 = ShapeFactory.getShape("SQUARE");
 
         //call draw method of circle
-        shape3.draw(10);
+        shape3.draw(10, "normal");
     }
 }
