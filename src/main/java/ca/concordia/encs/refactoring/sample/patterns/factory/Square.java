@@ -6,7 +6,7 @@ package ca.concordia.encs.refactoring.sample.patterns.factory;
 public class Square extends Rectangle implements Shape {
 
     @Override
-    public void draw() {
+    public void draw(int thickness) {
         System.out.println("Inside Square::draw() method.");
     }
 }

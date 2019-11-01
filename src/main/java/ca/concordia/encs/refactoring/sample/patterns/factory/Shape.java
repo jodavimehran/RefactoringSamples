@@ -5,5 +5,5 @@ package ca.concordia.encs.refactoring.sample.patterns.factory;
  * types of objects produced by the ShapeFactory.
  */
 public interface Shape {
-    void draw();
+    void draw(int thickness);
 }
