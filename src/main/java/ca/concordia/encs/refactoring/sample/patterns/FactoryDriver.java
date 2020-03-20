@@ -1,4 +1,7 @@
-package ca.concordia.encs.refactoring.sample.patterns.factory;
+package ca.concordia.encs.refactoring.sample.patterns;
+
+import ca.concordia.encs.refactoring.sample.patterns.factory.Shape;
+import ca.concordia.encs.refactoring.sample.patterns.factory.ShapeFactory;
 
 public class FactoryDriver {
 
