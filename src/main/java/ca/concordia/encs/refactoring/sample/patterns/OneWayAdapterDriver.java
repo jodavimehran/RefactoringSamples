@@ -1,4 +1,8 @@
-package ca.concordia.encs.refactoring.sample.patterns.adapter.oneway;
+package ca.concordia.encs.refactoring.sample.patterns;
+
+import ca.concordia.encs.refactoring.sample.patterns.adapter.oneway.RoundPeg;
+import ca.concordia.encs.refactoring.sample.patterns.adapter.oneway.SquarePeg;
+import ca.concordia.encs.refactoring.sample.patterns.adapter.oneway.SquareToRoundPegAdapter;
 
 /**
  * Driver program using the Peg Adapter
