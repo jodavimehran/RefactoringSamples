@@ -3,7 +3,7 @@ package ca.concordia.encs.refactoring.sample.patterns.adapter.oneway;
 /**
  * Driver program using the Peg Adapter
  */
-public class AdapterDriver {
+public class OneWayAdapterDriver {
     public static void main(String[] args) {
 
         // Create some pegs.
