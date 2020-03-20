@@ -2,11 +2,11 @@ package ca.concordia.encs.refactoring.sample.patterns.observer;
 
 import java.util.Scanner;
 
-public class ObserverDemo extends Object {
+public class ObserverDriver extends Object {
     DigitalClockView clockView;
     ClockTimerModel clockModel;
 
-    public ObserverDemo() {
+    public ObserverDriver() {
         //create the View object
         clockView = new DigitalClockView();
         //create the Model object
@@ -16,7 +16,7 @@ public class ObserverDemo extends Object {
     }
 
   public static void main(String[] args) {
-        ObserverDemo od = new ObserverDemo();
+        ObserverDriver od = new ObserverDriver();
         od.demo();
     }
 
