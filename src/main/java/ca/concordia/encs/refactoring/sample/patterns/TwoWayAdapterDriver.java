@@ -1,4 +1,6 @@
-package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
+package ca.concordia.encs.refactoring.sample.patterns;
+
+import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.*;
 
 /**
  * Driver class for two way Peg Adapter.
