@@ -26,4 +26,8 @@ public class OneWayAdapterDriver {
         SquarePeg wannabeRound = new SquareToRoundPegAdapter(roundPeg);
         wannabeRound.insert("I am a SquarePeg in a round hole!");
     }
+
+    private void startDriver() {
+        System.out.println("Start Driver");
+    }
 }

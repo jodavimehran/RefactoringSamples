@@ -26,4 +26,8 @@ public class TwoWayAdapterDriver {
         IRoundPeg wannabeSquare = new PegAdapter(squarePeg);
         wannabeSquare.insertIntoHole("I am a RoundPeg into a square hole!");
     }
+
+    private void startDriver() {
+        System.out.println("Start Driver");
+    }
 }

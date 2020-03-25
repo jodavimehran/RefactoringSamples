@@ -25,4 +25,8 @@ public class FactoryDriver {
         //call draw method of circle
         shape3.drawIt(10, "normal");
     }
+
+    private void startDriver() {
+        System.out.println("Start Driver");
+    }
 }
