@@ -3,7 +3,7 @@ package ca.concordia.encs.refactoring.sample.patterns;
 import ca.concordia.encs.refactoring.sample.patterns.factory.Shape;
 import ca.concordia.encs.refactoring.sample.patterns.factory.ShapeFactory;
 
-public class FactoryDriver {
+public class FactoryDriver extends BaseDriver {
 
     public static void main(String[] args) {
 
@@ -26,7 +26,4 @@ public class FactoryDriver {
         shape3.drawIt(10, "normal");
     }
 
-    private void startDriver() {
-        System.out.println("Start Driver");
-    }
 }

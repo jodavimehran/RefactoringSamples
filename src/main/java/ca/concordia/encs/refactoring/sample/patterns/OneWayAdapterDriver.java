@@ -7,7 +7,7 @@ import ca.concordia.encs.refactoring.sample.patterns.adapter.oneway.SquareToRoun
 /**
  * Driver program using the Peg Adapter
  */
-public class OneWayAdapterDriver {
+public class OneWayAdapterDriver extends BaseDriver {
     public static void main(String[] args) {
 
         // Create some pegs.
@@ -27,7 +27,4 @@ public class OneWayAdapterDriver {
         wannabeRound.insert("I am a SquarePeg in a round hole!");
     }
 
-    private void startDriver() {
-        System.out.println("Start Driver");
-    }
 }

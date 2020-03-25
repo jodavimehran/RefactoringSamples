@@ -5,7 +5,7 @@ import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.*;
 /**
  * Driver class for two way Peg Adapter.
  */
-public class TwoWayAdapterDriver {
+public class TwoWayAdapterDriver extends BaseDriver {
     public static void main(String[] args) {
 
         // Create some pegs.
@@ -25,9 +25,5 @@ public class TwoWayAdapterDriver {
         // Create a two-way adapter and do an insert with it.
         IRoundPeg wannabeSquare = new PegAdapter(squarePeg);
         wannabeSquare.insertIntoHole("I am a RoundPeg into a square hole!");
-    }
-
-    private void startDriver() {
-        System.out.println("Start Driver");
     }
 }
