@@ -8,5 +8,6 @@ public class Bar {
 
     public void mC() {
         System.out.println("Bar.mC()");
+        System.out.println("Bar.mE()");
     }
 }
