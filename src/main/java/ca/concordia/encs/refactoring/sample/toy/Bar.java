@@ -5,9 +5,4 @@ public class Bar {
     public void mX() {
         System.out.println("Bar.mB()");
     }
-
-    public void mC() {
-        System.out.println("Bar.mC()");
-        System.out.println("Bar.mE()");
-    }
 }
