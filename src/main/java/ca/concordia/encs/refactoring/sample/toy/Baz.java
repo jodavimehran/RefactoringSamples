@@ -3,6 +3,6 @@ package ca.concordia.encs.refactoring.sample.toy;
 public class Baz {
 
     public void mY() {
-        System.out.println("Bar.mB()");
+        System.out.println("Baz.mY()");
     }
 }
