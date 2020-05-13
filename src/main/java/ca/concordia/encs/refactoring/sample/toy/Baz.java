@@ -1,8 +1,8 @@
 package ca.concordia.encs.refactoring.sample.toy;
 
-public class Bar {
+public class Baz {
 
-    public void mX() {
+    public void mY() {
         System.out.println("Bar.mB()");
     }
 }
