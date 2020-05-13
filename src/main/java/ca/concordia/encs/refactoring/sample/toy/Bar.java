@@ -2,7 +2,7 @@ package ca.concordia.encs.refactoring.sample.toy;
 
 public class Bar {
 
-    public void mB() {
+    public void mX() {
         System.out.println("Bar.mB()");
     }
 
