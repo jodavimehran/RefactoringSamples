@@ -5,13 +5,13 @@ package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
  */
 public class PegAdapter implements ISquarePeg, IRoundPeg {
     private RoundPeg roundPeg;
-    private SquarePeg1 squarePeg;
+    private SquarePeg2 squarePeg;
 
     public PegAdapter(RoundPeg peg) {
         this.roundPeg = peg;
     }
 
-    public PegAdapter(SquarePeg1 peg) {
+    public PegAdapter(SquarePeg2 peg) {
         this.squarePeg = peg;
     }
 
