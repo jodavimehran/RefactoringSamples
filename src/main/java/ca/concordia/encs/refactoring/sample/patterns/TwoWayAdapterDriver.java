@@ -10,7 +10,7 @@ public class TwoWayAdapterDriver extends BaseDriver {
 
         // Create some pegs.
         RoundPeg roundPeg = new RoundPeg();
-        SquarePeg2 squarePeg = new SquarePeg2();
+        SquarePeg3 squarePeg = new SquarePeg3();
 
         // Do an insert using the square peg.
         squarePeg.insert("I am a SquarePeg into a square hole.");
