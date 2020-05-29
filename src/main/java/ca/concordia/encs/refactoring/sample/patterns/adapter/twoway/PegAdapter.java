@@ -1,5 +1,7 @@
 package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
 
+import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg3;
+
 /**
  * The PegAdapter class. This is the two-way adapter class.
  */

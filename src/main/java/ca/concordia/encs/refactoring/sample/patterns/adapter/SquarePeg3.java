@@ -1,4 +1,6 @@
-package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
+package ca.concordia.encs.refactoring.sample.patterns.adapter;
+
+import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.ISquarePeg;
 
 /**
  * The SquarePeg Target/Adaptee class.
