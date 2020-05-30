@@ -1,19 +1,19 @@
 package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
 
-import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg3;
+import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg;
 
 /**
  * The PegAdapter class. This is the two-way adapter class.
  */
 public class PegAdapter implements ISquarePeg, IRoundPeg {
     private RoundPeg roundPeg;
-    private SquarePeg3 squarePeg;
+    private SquarePeg squarePeg;
 
     public PegAdapter(RoundPeg peg) {
         this.roundPeg = peg;
     }
 
-    public PegAdapter(SquarePeg3 peg) {
+    public PegAdapter(SquarePeg peg) {
         this.squarePeg = peg;
     }
 

@@ -1,6 +1,6 @@
 package ca.concordia.encs.refactoring.sample.patterns;
 
-import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg3;
+import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg;
 import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.*;
 
 /**
@@ -11,7 +11,7 @@ public class TwoWayAdapterDriver extends BaseDriver {
 
         // Create some pegs.
         RoundPeg roundPeg = new RoundPeg();
-        SquarePeg3 squarePeg = new SquarePeg3();
+        SquarePeg squarePeg = new SquarePeg();
 
         // Do an insert using the square peg.
         squarePeg.insert("I am a SquarePeg into a square hole.");
