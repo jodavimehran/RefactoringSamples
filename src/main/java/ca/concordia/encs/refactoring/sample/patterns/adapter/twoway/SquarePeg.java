@@ -1,4 +1,4 @@
-package ca.concordia.encs.refactoring.sample.patterns.adapter;
+package ca.concordia.encs.refactoring.sample.patterns.adapter.twoway;
 
 import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.ISquarePeg;
 

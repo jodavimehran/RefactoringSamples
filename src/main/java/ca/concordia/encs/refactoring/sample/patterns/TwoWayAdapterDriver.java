@@ -1,6 +1,6 @@
 package ca.concordia.encs.refactoring.sample.patterns;
 
-import ca.concordia.encs.refactoring.sample.patterns.adapter.SquarePeg;
+import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.SquarePeg;
 import ca.concordia.encs.refactoring.sample.patterns.adapter.twoway.*;
 
 /**
