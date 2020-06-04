@@ -1,8 +1,8 @@
 package ca.concordia.encs.refactoring.sample.second;
 
-public class Bar {
+public class Baz {
 
-    public long mX(int a, int b) {
+    public long mY(int a, int b) {
         return a * b;
     }
 
