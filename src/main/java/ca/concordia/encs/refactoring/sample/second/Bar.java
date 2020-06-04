@@ -2,7 +2,7 @@ package ca.concordia.encs.refactoring.sample.second;
 
 public class Bar {
 
-    public long mB(int a, int b) {
+    public long mX(int a, int b) {
         return a * b;
     }
 
