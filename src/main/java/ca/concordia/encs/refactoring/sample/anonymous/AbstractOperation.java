@@ -3,6 +3,8 @@ package ca.concordia.encs.refactoring.sample.anonymous;
 public abstract class AbstractOperation {
     protected final int a;
     protected final int b;
+    protected long result;
+
 
     public AbstractOperation(int a, int b) {
         this.a = a;
@@ -11,5 +13,7 @@ public abstract class AbstractOperation {
 
     public abstract void action();
 
-    public abstract long getResult();
+    public long getResult() {
+        return result;
+    }
 }

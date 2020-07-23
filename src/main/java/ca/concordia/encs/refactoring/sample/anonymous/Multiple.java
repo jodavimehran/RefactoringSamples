@@ -1,7 +1,6 @@
 package ca.concordia.encs.refactoring.sample.anonymous;
 
-public class Multiple extends AbstractOperation  {
-    private long result;
+public class Multiple extends AbstractOperation {
 
     public Multiple(int a, int b) {
         super(a, b);
@@ -12,8 +11,4 @@ public class Multiple extends AbstractOperation  {
         result = a * b;
     }
 
-    @Override
-    public long getResult() {
-        return result;
-    }
 }
