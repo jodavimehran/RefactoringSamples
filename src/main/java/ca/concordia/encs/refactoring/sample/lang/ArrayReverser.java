@@ -22,7 +22,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         Object tmp;
         while (j > i) {
@@ -91,7 +91,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         short tmp;
         while (j > i) {
@@ -138,7 +138,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         boolean tmp;
         while (j > i) {
@@ -185,7 +185,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         byte tmp;
         while (j > i) {
@@ -232,7 +232,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         char tmp;
         while (j > i) {
@@ -242,6 +242,10 @@ public class ArrayReverser {
             j--;
             i++;
         }
+    }
+
+    private static int calculateStartIndex(int startIndexInclusive) {
+        return Math.max(startIndexInclusive, 0);
     }
 
     /**
@@ -279,7 +283,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         double tmp;
         while (j > i) {
@@ -326,7 +330,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         float tmp;
         while (j > i) {
@@ -373,7 +377,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         int tmp;
         while (j > i) {
@@ -420,7 +424,7 @@ public class ArrayReverser {
         if (array == null) {
             return;
         }
-        int i = Math.max(startIndexInclusive, 0);
+        int i = calculateStartIndex(startIndexInclusive);
         int j = Math.min(array.length, endIndexExclusive) - 1;
         long tmp;
         while (j > i) {
